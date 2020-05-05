@@ -61,9 +61,13 @@ The program accepts 1-2 command line arguments:
 The Grid is then accepted from standard input.
 
 ### Windows (PowerShell)
-* Build with: `scalac *.scala`
+* Build with: `scalac stateSearch/*.scala`, and `scalac *.scala`
 * Run with: `scala GridPathApp <algorithm> <heuristic>`
   * Recommended: pipe in the contents of a plaintext file with the grid like so: `Get-Content <grid-file> | scala GridPathApp <algorithm> <heuristic>`
+  
+### MacOS / Linux Shell
+Use included build and run scripts.
+You can pipe the contents of a plaintext file into the run script and it should send it to the program's standard input to run.
   
 Let me know if you have any problems building or running the program.
   
