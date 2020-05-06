@@ -1,4 +1,4 @@
-# Grid-Based Motion Planner
+# Grid-Based Motion Planner Exercise
 Plans a route through an arbitrary grid with blocked, empty, start and goal cells so that each goal is visited.
 
 ## Input Syntax
